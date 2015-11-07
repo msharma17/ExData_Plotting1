@@ -23,7 +23,7 @@ par(mfrow = c(2, 2))
 
 plot(datetime, GlobalActivePower, type="l", xlab="", ylab="Global Active Power", cex=0.2)
 plot(datetime, voltage, type="l", xlab="datetime", ylab="Voltage")
-plot(datetime, subMetering1, type="l",xlab="", ylab="Energy aaasub metering")
+plot(datetime, subMetering1, type="l",xlab="", ylab="Energy sub metering")
 
 lines(datetime, subMetering2, type="l", col="red")
 lines(datetime, subMetering3, type="l", col="blue")
